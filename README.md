@@ -17,7 +17,7 @@ MatchDevicePath "/dev/input/event*"
 Driver "wacom"
 EndSection
 ```
-2. After rebooting, the **xsetwacom --list** command will output the following:
+2. After rebooting, the **xsetwacom --list devices** command will output the following:
 ```
 GAOMON Gaomon Tablet Pen stylus id: XX type: STYLUS    
 GAOMON Gaomon Tablet Pad pad id: XX type: PAD 
